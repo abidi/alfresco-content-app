@@ -20,6 +20,7 @@ pipeline {
             steps {
                 sh 'ng test'
                 sh 'ng e2e'
+                
             }
         }
     }
